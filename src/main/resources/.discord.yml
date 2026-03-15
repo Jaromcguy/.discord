@@ -1,0 +1,28 @@
+# ================================
+#   Discord Plugin Konfiguration
+# ================================
+
+discord:
+  # Link zum Discord-Server
+  link: "https://discord.gg/deinserver"
+
+inventory:
+  # Titel des Inventars (& Farbcodes werden unterstützt)
+  title: "&9&lDiscord"
+  # Name des Knowledge Books (&9 = Blau, &l = Fett)
+  item-name: "&9&lDiscord Server"
+  # Füller-Material für leere Slots
+  filler-material: "GRAY_STAINED_GLASS_PANE"
+
+message:
+  # Nachricht die im Chat erscheint wenn man das Buch anklickt
+  # Die gesamte Nachricht ist klickbar und öffnet den Discord-Link
+  click-text: "&7Klicke &b&lhier &7um dem Discord beizutreten!"
+
+sound:
+  # Sound beim Klicken auf das Knowledge Book
+  enabled: true
+  # Minecraft Sound-Name (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html)
+  type: "BLOCK_NOTE_BLOCK_PLING"
+  volume: 1.0
+  pitch: 2.0
